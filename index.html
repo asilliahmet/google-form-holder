@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="careerdiv">
+    <div class="careertop">
+      <i id="careericonnotext"></i>
+      <span>MAJOLIKA KARIYER</span>
+    </div>
+    <div class="careercontent">
+      <div id="form">
+        <iframe onload="function anonerr() {
+          let iframe = document.querySelector('#form iframe');
+          let frameDiv = document.querySelector('#form');
+          iframe.setAttribute('height', `${frameDiv.offsetHeight*95/100}px`);
+          console.log(iframe);
+        };anonerr()" src="https://docs.google.com/forms/d/e/1FAIpQLSePc3zQMNRK3RtL3R5_9Q96P96w4Q-DodqbeSs5qpBA16CZsg/viewform?embedded=true"  frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
+      </div>
+      <div id="info">
+        <div class="inforow">
+          <i id="firstarrow"></i>
+          <span>AÇ MISIN?</span>
+        </div>
+        <div class="inforow">
+          <span>Formu doldur, tasarımını gönder,</span>
+          <i id="fircastroke"></i>
+        </div>
+        <div class="inforow">
+          <span>Bizimle çalışma şansı yakala!</span>
+          <i id="hiring"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
